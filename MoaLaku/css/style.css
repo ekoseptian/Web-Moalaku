@@ -1,0 +1,150 @@
+body{
+
+	font-weight: 600;
+
+}
+
+li a:hover{
+	color: 
+}
+
+.banner{
+	background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.banner:after{
+	background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+
+}
+
+
+.single-service-item {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    padding: 25px 20px;
+    font-size: 12px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-ban{
+	font-weight: 900;
+    margin: 0 0 35px;
+    position: relative;
+
+}
+
+.section-title {
+    font-weight: 900;
+    margin: 0 0 35px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.section-content {
+    margin: 0 0 50px;
+}
+
+
+.section-title:before {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid black;
+    bottom: -25px;
+    content: "";
+    height: 12px;
+    left: 50%;
+    margin-left: -8px;
+    position: absolute;
+    width: 12px;
+    z-index: 1;
+}
+
+.section-title:after {
+    background: black none repeat scroll 0 0;
+    bottom: -20px;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -68px;
+    position: absolute;
+    width: 135px;
+}
+
+.parallax-bg-style {
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+
+.parallax-bg-style-1 {
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 400px;
+    width: 100%;
+}
+.parallax-bg-5 {
+    background-image: url(../img/bunga.jpg);
+}
+
+.parallax-bg-4{
+	background-image: url(../img/baner.jpg);
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    color: #ffff;
+}
+
+
+
+.parallax-bg-style:after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.parallax-bg-style-1:after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.anim{
+	margin-top: -300px;
+	z-index: 9999999;
+}
+
